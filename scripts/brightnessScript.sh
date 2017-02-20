@@ -32,20 +32,20 @@ fi
 SIGN="\uf057"
 
 case $brightnessLevel in
-  0)      notify-send -p $NID "Brightness:" "$col$color1σ$endσσσσσσσσσσσσσσσ" > /tmp/brightness;;
-  1)      notify-send -p $NID "Brightness:" "$col$color1σσ$endσσσσσσσσσσσσσσ" > /tmp/brightness;;
-  2)      notify-send -p $NID "Brightness:" "$col$color2σσσ$endσσσσσσσσσσσσσ" > /tmp/brightness;;
-  3)      notify-send -p $NID "Brightness:" "$col$color2σσσσ$endσσσσσσσσσσσσ" > /tmp/brightness;;
-  4)      notify-send -p $NID "Brightness:" "$col$color3σσσσσ$endσσσσσσσσσσσ" > /tmp/brightness;;
-  5)      notify-send -p $NID "Brightness:" "$col$color3σσσσσσ$endσσσσσσσσσσ" > /tmp/brightness;;
-  6)      notify-send -p $NID "Brightness:" "$col$color4σσσσσσσ$endσσσσσσσσσ" > /tmp/brightness;;
-  7)      notify-send -p $NID "Brightness:" "$col$color4σσσσσσσσ$endσσσσσσσσ" > /tmp/brightness;;
-  8)      notify-send -p $NID "Brightness:" "$col$color5σσσσσσσσσ$endσσσσσσσ" > /tmp/brightness;;
-  9)      notify-send -p $NID "Brightness:" "$col$color5σσσσσσσσσσ$endσσσσσσ" > /tmp/brightness;;
-  10)     notify-send -p $NID "Brightness:" "$col$color6σσσσσσσσσσσ$endσσσσσ" > /tmp/brightness;;
-  11)     notify-send -p $NID "Brightness:" "$col$color6σσσσσσσσσσσσ$endσσσσ" > /tmp/brightness;;
-  12)     notify-send -p $NID "Brightness:" "$col$color7σσσσσσσσσσσσσ$endσσσ" > /tmp/brightness;;
-  13)     notify-send -p $NID "Brightness:" "$col$color7σσσσσσσσσσσσσσ$endσσ" > /tmp/brightness;;
-  14)     notify-send -p $NID "Brightness:" "$col$color8σσσσσσσσσσσσσσσ$endσ" > /tmp/brightness;;
-  15)     notify-send -p $NID "Brightness:" "$col$color8σσσσσσσσσσσσσσσσ$end" > /tmp/brightness;;
+  0)      notify-send -p $NID "Brightness:" "$col$color1o$endooooooooooooooo" > /tmp/brightness;;
+  1)      notify-send -p $NID "Brightness:" "$col$color1oo$endoooooooooooooo" > /tmp/brightness;;
+  2)      notify-send -p $NID "Brightness:" "$col$color2ooo$endooooooooooooo" > /tmp/brightness;;
+  3)      notify-send -p $NID "Brightness:" "$col$color2oooo$endoooooooooooo" > /tmp/brightness;;
+  4)      notify-send -p $NID "Brightness:" "$col$color3ooooo$endooooooooooo" > /tmp/brightness;;
+  5)      notify-send -p $NID "Brightness:" "$col$color3oooooo$endoooooooooo" > /tmp/brightness;;
+  6)      notify-send -p $NID "Brightness:" "$col$color4ooooooo$endooooooooo" > /tmp/brightness;;
+  7)      notify-send -p $NID "Brightness:" "$col$color4oooooooo$endoooooooo" > /tmp/brightness;;
+  8)      notify-send -p $NID "Brightness:" "$col$color5ooooooooo$endooooooo" > /tmp/brightness;;
+  9)      notify-send -p $NID "Brightness:" "$col$color5oooooooooo$endoooooo" > /tmp/brightness;;
+  10)     notify-send -p $NID "Brightness:" "$col$color6ooooooooooo$endooooo" > /tmp/brightness;;
+  11)     notify-send -p $NID "Brightness:" "$col$color6oooooooooooo$endoooo" > /tmp/brightness;;
+  12)     notify-send -p $NID "Brightness:" "$col$color7ooooooooooooo$endooo" > /tmp/brightness;;
+  13)     notify-send -p $NID "Brightness:" "$col$color7oooooooooooooo$endoo" > /tmp/brightness;;
+  14)     notify-send -p $NID "Brightness:" "$col$color8ooooooooooooooo$endo" > /tmp/brightness;;
+  15)     notify-send -p $NID "Brightness:" "$col$color8oooooooooooooooo$end" > /tmp/brightness;;
 esac
