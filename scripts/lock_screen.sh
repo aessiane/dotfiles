@@ -10,7 +10,7 @@ LAYER="$TOP_DIRECTORY/${UPPER_LAYERS[$RAND]}"
 echo $LAYER
 
 scrot /tmp/lock.png
-blur_image /tmp/lock.png -o /tmp/blurred.png
+convert -blur 12x12 /tmp/lock.png /tmp/blurred.png
 convert /tmp/blurred.png "$LAYER" -composite /tmp/final.png
 /usr/bin/i3lock --pointer=win -i /tmp/final.png -b
 rm /tmp/lock.png /tmp/blurred.png /tmp/final.png
