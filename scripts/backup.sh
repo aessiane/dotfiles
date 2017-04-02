@@ -46,7 +46,7 @@ tar -cvf "$BACKUP_DIR"".tar" "$BACKUP_DIR"
 
 rm -rf "$BACKUP_DIR"
 
-scp -i $SSH_KEY_FILE "$BACKUP_DIR"".tar" $REMOTE_USER:REMOTE_BACKUP_FILE
+scp -i $SSH_KEY_FILE "$BACKUP_DIR"".tar" $REMOTE_USER:$REMOTE_BACKUP_FILE
 
 # Will be useful one day
 : '
